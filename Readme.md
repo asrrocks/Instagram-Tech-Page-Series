@@ -1,4 +1,6 @@
-#Instagram Series - TECH YUVA
-[TECH YUVA PAGE LINK](https://instagram.com/tech.yuva)
+#Instagram Series - TECH YUVA 
+<br />
+[<img align="left" alt="TECH.YUVA | Instagram" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 <br /><br />
 <img align="left" alt="TECH YUVA LOGO" width="400px" src="https://github.com/asrrocks/Instagram-Tech-Page-Series/blob/master/HTML/Day1/logo.png" />
+[instagram]: https://www.instagram.com/tech.yuva/
