@@ -61,7 +61,6 @@ a{
 
 /* Responsive Meta Tags */
 @media (min-width: 481px) and (max-width: 767px) {
-  
     .logo{
         width: 85%;
     }
@@ -71,12 +70,9 @@ a{
     .logo h1{
         font-size: 2rem;
     }
-    
   }
   
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
+  @media (min-width: 320px) and (max-width: 480px) {  
     .logo{
         width: 85%;
     }
@@ -86,5 +82,4 @@ a{
     .logo h1{
         font-size: 1.5rem;
     }
-    
   }
