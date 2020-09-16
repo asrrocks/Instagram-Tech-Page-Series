@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Correct Mobile Keypad with inputmode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="form-section">
+            <h1>SHOW CORRECT MOBILE KEYPAD WITH <code>inputmode</code></h1>
+            <p><em>Note : Check this in mobile to see the different keypads</em></p>
+            <form action="#" method="POST">
+                <!-- Numeric Keypad -->
+                <div class="each-input">
+                    <label for="numeric">NUMERIC</label> <br>
+                    <input type="text" id="numeric" inputmode="numeric" placeholder="Enter Something">
+                </div>
+
+                <!-- Email Keypad -->
+                <div class="each-input">
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email" inputmode="email" placeholder="Enter Something">
+                </div>
+
+                <!-- Phone -->
+                <div class="each-input">
+                    <label for="phone">PHONE</label><br>
+                    <input id="phone" inputmode="tel" placeholder="Enter Something">
+                </div>
+
+                <!-- URL -->
+                <div class="each-input">
+                    <label for="URL">URL</label><br>
+                    <input id="URL" inputmode="url" placeholder="Enter Something">
+                </div>
+
+                <!-- Phone -->
+                <div class="submit-btn">
+                    <input type="submit" name="submit" value="SUBMIT">
+                </div>
+
+            </form>
+            <p class="follow">Follow @tech.yuva</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

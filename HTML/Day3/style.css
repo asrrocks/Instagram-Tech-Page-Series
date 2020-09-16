@@ -1,0 +1,124 @@
+/* 
+#Day - 3 Show Correct Mobile Keypad With inputmode
+*/
+
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&display=swap');
+
+/* 
+Resetting
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* Main Styling */
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #eefeee; */
+    position: relative;
+}
+
+.form-section{
+    background-color: #addeee;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.form-section h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+.form-section h1 code{
+    color: crimson;
+}
+
+.form-section p em{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.form-section form{
+    width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+.form-section .each-input{
+    padding: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-section .each-input input{
+    padding: 8px 6px;
+    border: none;
+    margin-top: 5px;
+}
+
+.form-section .each-input label{
+    font-weight: 600;
+}
+
+.submit-btn{
+    margin-top: 10px;
+}
+
+.submit-btn input{
+    padding: 7px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.follow{
+    float: right;
+    font-weight: bold;
+}
+
+
+/* Responsive Meta Tags */
+@media (min-width: 481px) and (max-width: 767px) {
+    .form-section{
+        width: 90%;
+        overflow: hidden;
+    }
+    .form-section h1{
+        font-size: 1.4rem;
+    }
+    .form-section p em{
+        font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {  
+    .form-section{
+        width: 90%;
+        overflow: hidden;
+    }
+    .form-section h1{
+        font-size: 1.3rem;
+    }
+    .form-section p em{
+        font-size: 0.8rem;
+    }
+  }
