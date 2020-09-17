@@ -1,4 +1,4 @@
-# Show Correct Mobile Keypad with inputmode
+# Color Picker
 ### [Codepen Repo link](https://codepen.io/sinanu1998/pen/OJNoZmb)
 
 #### HTML
