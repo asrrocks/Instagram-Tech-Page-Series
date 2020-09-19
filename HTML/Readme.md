@@ -8,6 +8,8 @@
 [# DAY-4 Color Picker](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day4)
 <br />
 [# DAY-5 Highlight Text using mark Tag](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day5)
+<br />
+[# DAY-6 Dropdown with Searchable Text](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day6)
 <br><br>
 ### HTML CHEATSHEET
 <img align="center" alt="HTML CHEATSHEET" width="100%" src="./htmlcheatsheet.png" />

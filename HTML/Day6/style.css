@@ -1,0 +1,150 @@
+/* 
+#Day - 5 Dropdown with searchable text
+*/
+
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&display=swap');
+
+/* 
+Resetting
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Main Styling */
+
+.main{
+    background-color: #f98866;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    width: 65%;
+    text-align: center;
+    background-color: #ff420e;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown h1{
+    font-size: 2.3rem;
+    margin: 20px 0;
+}
+
+.dropdown form label{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.dropdown form input[list]{
+    width: 450px;
+    height: 40px;
+    padding: 20px;
+    font-size: 1rem;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+
+.dropdown form input[list]:focus{
+    outline: none;
+    border: 2px solid darkslategray;
+}
+
+.dropdown .impNote{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dropdown .impNote mark{
+    background-color: #80bd9e;
+    color: #fff;
+    padding: 4px;
+    text-decoration: underline;
+}
+
+.dropdown .follow-callback{
+    float: right;
+    margin-top: 50px;
+    font-size: 1.1rem;
+}
+
+
+
+
+/* Responsive Meta Tags */
+@media (min-width: 481px) and (max-width: 767px) {
+    .dropdown{
+        width: 90%;
+        overflow: hidden;
+    }
+    .dropdown form input[list]{
+        width: 250px;
+        height: 35px;
+        padding: 12px;
+        font-size: 0.8rem;
+    }
+
+    .dropdown h1{
+        font-size: 1.5rem;
+    }
+
+    .dropdown form label{
+        font-size: 1rem;
+    }
+
+    .dropdown .impNote{
+        font-size: 0.9rem;
+    }
+
+    .dropdown .follow-callback{
+        font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {  
+    .dropdown{
+        width: 90%;
+        overflow: hidden;
+    }
+    .dropdown form input[list]{
+        width: 250px;
+        height: 35px;
+        padding: 12px;
+        font-size: 0.8rem;
+    }
+
+    .dropdown h1{
+        font-size: 1.5rem;
+    }
+
+    .dropdown form label{
+        font-size: 1rem;
+    }
+
+    .dropdown .impNote{
+        font-size: 0.9rem;
+    }
+
+    .dropdown .follow-callback{
+        font-size: 1rem;
+    }
+  }
