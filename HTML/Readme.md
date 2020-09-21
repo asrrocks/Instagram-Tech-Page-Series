@@ -10,6 +10,8 @@
 [# DAY-5 Highlight Text using mark Tag](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day5)
 <br />
 [# DAY-6 Dropdown with Searchable Text](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day6)
+<br />
+[# DAY-7 Measuring Progress](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day6)
 <br><br>
 ### HTML CHEATSHEET
 <img align="center" alt="HTML CHEATSHEET" width="100%" src="./htmlcheatsheet.png" />
