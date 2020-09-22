@@ -1,0 +1,57 @@
+/* 
+#Day - 9 Noscript tag
+*/
+
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&display=swap');
+
+/* 
+Resetting
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* Main Styling */
+
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #fffbc3;
+    position: relative;
+}
+
+.expandCollapseDiv{
+    width: 80%;
+    background-color: #ffa176;
+    margin: 0 auto;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.expandCollapseDiv h1{
+    text-align: center;
+    margin: 25px 0;
+    color: #fff;
+}
+
+
+/* Responsive Meta Tags */
+@media (min-width: 481px) and (max-width: 767px) {
+    /*  */
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {  
+    /*  */
+  }
