@@ -16,6 +16,8 @@
 [# DAY-8 Expand / Collapse Details](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day8)
 <br />
 [# DAY-9 NoScript Tag](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day9)
+<br />
+[# DAY-10 Editing Page Content](https://github.com/asrrocks/Instagram-Tech-Page-Series/edit/master/HTML/Day10)
 <br><br>
 ### HTML CHEATSHEET
 <img align="center" alt="HTML CHEATSHEET" width="100%" src="./htmlcheatsheet.png" />
