@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Example</title>
+    <style>
+        /* Importing Font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&display=swap');
+
+        body {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .block {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .block p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .block p::before {
+            content: open-quote;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .block p::after {
+            content: close-quote;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .block span {
+            float: right;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <p>Talk is Cheap. Show me the Code.</p>
+        <span>~ Who knows. But pls follow @tech.yuva 🙂</span>
+    </div>
+
+</body>
+
+</html>
